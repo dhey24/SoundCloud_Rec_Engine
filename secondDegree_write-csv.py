@@ -12,7 +12,7 @@ Created on Sun Apr 10 12:39:48 2016
 @author: davidhey
 """
 from follows_follows_genericUID_reworked import *
-from soundcould_search_uesr import *
+from soundcould_search_user import *
 import networkx as nx
 import pprint
 import matplotlib.pyplot as plt

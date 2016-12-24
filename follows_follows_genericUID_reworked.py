@@ -16,7 +16,7 @@ Created on Thu Apr  7 19:32:45 2016
 from soundcloud_secret import *
 from soundcloud_functions import create_client
 import soundcloud
-from soundcould_search_uesr import *
+from soundcould_search_user import *
     
 def follows_follows(userid, follow_type):
     """

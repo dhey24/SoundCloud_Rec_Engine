@@ -277,10 +277,6 @@ def reccomendationNetwork(user_id, repull_data):
     notFound = []
 
     for n, d in G.nodes_iter(data = True):
-        #print n 
-        #pprint.pprint(d)
-        #try:
-        #nodeSize.append(max(d["followers"]/500, 1))
         if d["first_degree_follow"] == True:
             nodeColor.append('r')
             nodeLabels_f[n] = d["username"] 
@@ -350,4 +346,4 @@ def reccomendationNetwork(user_id, repull_data):
 
 
 if __name__ == "__main__":
-    reccomendationNetwork("oliver-stahlmann-195515684", 1)
+    reccomendationNetwork("dhey24", 1)
